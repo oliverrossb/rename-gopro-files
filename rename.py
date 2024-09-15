@@ -27,6 +27,6 @@ def rename_gopro_videos(directory, base_name):
 
 # Adjust the directory path to point to the SD card in drive X
 directory = "/mnt/x/DCIM/100GOPRO"
-base_name = "TB030824_"
+base_name = "TB140924_"
 
 rename_gopro_videos(directory, base_name)

@@ -18,5 +18,12 @@ For the original file `GH070829.MP4:`
 
 ## Setup:
 
-- **Customise directory:** Change the variable `directory` to specify the path to your directory with the GoPro video files. 
 - **Adjust base name:** Change the variable `base_name` to specify the desired base name (e.g. GoPro) for the new file names.
+- **Customise directory:** Change the variable `directory` to specify the path to your directory with the GoPro video files. 
+
+### Helpful Tips:
+Because this script is usually executed in WSL, the mounting of the drive with the SD-Card might not happen automatically. In this case, use the following command:
+```bash
+sudo mount -t drvfs X: /mnt/x
+```
+  
